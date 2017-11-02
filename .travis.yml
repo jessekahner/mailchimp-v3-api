@@ -13,10 +13,7 @@ install:
 script:
 - jshint *.js
 
-before_install:
-  - npm cache clean -f
-  - npm install -g n
-  - n stable
+before_install: npm cache clean -f
 
 notifications:
     email:
