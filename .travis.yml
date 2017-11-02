@@ -17,4 +17,4 @@ before_install: npm update -g npm
 
 notifications:
     email:
-        bob@kubrickolo.gy
+        jesse.kahner@gmail.com
